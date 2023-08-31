@@ -6,9 +6,10 @@ public class main {
             float raio;
             double pi = 3.14159;
             double area;
+            System.out.println("Informe o raio do cículo:");
             raio = sc.nextFloat();
 
-            System.out.println(pi*(Math.pow(raio, 2)));
+            System.out.printf("O rário do círculo é: %.4f", pi*(Math.pow(raio, 2)));
         sc.close();
     }
 }
