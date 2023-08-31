@@ -5,7 +5,6 @@ public class main {
         Scanner sc = new Scanner(System.in);
             float raio;
             double pi = 3.14159;
-            double area;
             System.out.println("Informe o raio do cículo:");
             raio = sc.nextFloat();
 
